@@ -3,9 +3,9 @@
 $(document).ready(function(){
 
 getIt();
-frameIt;
-pressIt;
-submitIt;
+frameIt();
+pressIt();
+submitIt();
 
 });
 
