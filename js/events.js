@@ -22,11 +22,11 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on("keydown", function() {
-    if (key.which == 83) {
-      alert('key was pressed ')
+  $('form').on("keydown", function(key) {
+    if (key.which == 71) {
+      alert('G key was pressed');
     }
-  })
+  });
 }
 
 function submitIt() {
