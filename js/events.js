@@ -2,7 +2,10 @@
 
 $(document).ready(function(){
 
-// call functions here
+getIt();
+frameIt;
+pressIt;
+submitIt;
 
 });
 
@@ -23,5 +26,11 @@ function pressIt() {
     if (key.which == 83) {
       alert('key was pressed ')
     }
+  })
+}
+
+function submitIt() {
+  $('form').on("submit", function() {
+    alert("Your form is going to be submitted now");
   })
 }
