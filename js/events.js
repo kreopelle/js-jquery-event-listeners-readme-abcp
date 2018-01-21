@@ -14,6 +14,14 @@ function getIt() {
 
 function frameIt() {
   $('img').on("load", function() {
-    '#tasty'.append
+    '#tasty'.append;
+  });
+}
+
+function pressIt() {
+  $('form').on("keydown", function() {
+    if (key.which == 83) {
+      alert('key was pressed ')
+    }
   })
 }
